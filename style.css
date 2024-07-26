@@ -1,786 +1,734 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 375px;
-    height: 2700px;
-    margin: 0 auto;
-    position: relative;
-    width: 375px;
-    height: 2615px;
-    background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 375px;
+  height: 2700px;
+  margin: 0 auto;
+  position: relative;
+  width: 375px;
+  height: 2615px;
+  background: #ffffff;
+}
+
+.skiiled-color {
+  color: #ffffff;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 345px;
+  height: 2700px;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 353.6px;
+  height: 750px;
+  padding: 20px;
+  background: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  width: 375px;
+}
+
+header h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 35px;
+  color: #13183f;
+  margin-top: 0;
+  margin-right: 50px;
+}
+
+.button-one {
+  background: #13183f;
+  border-radius: 28px;
+  width: 140px;
+  height: 48px;
+  margin-left: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.main-title {
+  width: 343px;
+  height: 101px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 0;
+  margin-left: 16px;
+  color: #13183f;
+}
+
+.top-section-paragraph {
+  width: 350px;
+  height: 78px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 26px;
+  color: #83869a;
+  margin: 33px 16px 25px 16px;
+}
+
+.button-two-container {
+  align-self: flex-start;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.button-two {
+  width: 175px;
+  height: 60px;
+  margin-bottom: 10px;
+  background: linear-gradient(180deg, #b54020 0%, #71124e 100%);
+  border-radius: 31.5px;
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.mobile-image-one {
+  width: 365px;
+  height: 390px;
+  margin-bottom: 0;
+}
+
+.tablet-image-one {
+  display: none;
+}
+
+.desktop-image-one {
+  display: none;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 353.6px;
+  height: 1750px;
+  background: linear-gradient(180deg, #ffffff 0%, #f0fff6 100%);
+  padding: 0px 20px 0px 20px;
+  margin-top: 35px;
+}
+
+.popular {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.popular-courses {
+  width: 345px;
+  height: 122px;
+  margin-top: 0px;
+  background: linear-gradient(180deg, #b54020 0%, #71124e 100%);
+  border-radius: 10px;
+  left: 8.16%;
+  right: 8.45%;
+  top: calc(50% - 64px / 2 - 4px);
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.popular-courses p {
+  width: 250px;
+  padding-left: 30px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.animation {
+  background: #ffffff;
+  box-shadow: 0px 25px 50px rgba(36, 52, 117, 0.044);
+  border-radius: 10px;
+  margin-top: 50px;
+  padding-left: 28px;
+  padding-bottom: 32px;
+  width: 325px;
+  height: 235px;
+  left: 16px;
+  top: 1184px;
+}
+
+.animation h2 {
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183f;
+}
+
+.animation p {
+  width: 286px;
+  height: 100px;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+}
+
+.animation-button-container {
+  display: flex;
+  justify-content: flex-start;
+  height: 25px;
+}
+
+.animation-button {
+  height: 28px;
+  left: 8.16%;
+  right: 61.52%;
+  top: calc(50% - 28px / 2 + 95.5px);
+  background-color: white;
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f74780;
+  margin-bottom: 15px;
+  padding-left: 0;
+}
+
+.design {
+  background: #ffffff;
+  box-shadow: 0px 25px 50px rgba(36, 52, 117, 0.044);
+  border-radius: 10px;
+  margin-top: 50px;
+  padding-left: 28px;
+  padding-bottom: 32px;
+  width: 325px;
+  height: 235px;
+  left: 16px;
+  top: 1184px;
+}
+
+.design h2 {
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183f;
+}
+
+.design p {
+  width: 300px;
+  height: 100px;
+  margin-right: 29px;
+  margin-bottom: 0;
+  padding-right: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+}
+
+.design-button-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.design-button {
+  height: 28px;
+  background-color: white;
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f74780;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.camera {
+  background: #ffffff;
+  box-shadow: 0px 25px 50px rgba(36, 52, 117, 0.044);
+  border-radius: 10px;
+  margin-top: 50px;
+  padding-left: 28px;
+  padding-bottom: 32px;
+  width: 325px;
+  height: 235px;
+  left: 16px;
+  top: 1184px;
+}
+
+.camera h2 {
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183f;
+}
+
+.camera p {
+  width: 286px;
+  height: 100px;
+  margin-right: 29px;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+}
+
+.camera-button-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.camera-button {
+  height: 28px;
+  background-color: white;
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f74780;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.bitcoin {
+  background: #ffffff;
+  box-shadow: 0px 25px 50px rgba(36, 52, 117, 0.044);
+  border-radius: 10px;
+  margin-top: 50px;
+  padding-left: 28px;
+  padding-bottom: 32px;
+  width: 325px;
+  height: 235px;
+  left: 16px;
+  top: 1184px;
+}
+
+.bitcoin h2 {
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183f;
+}
+
+.bitcoin p {
+  width: 286px;
+  height: 100px;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+}
+
+.bitcoin-button-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+.bitcoin-button {
+  height: 28px;
+  background-color: white;
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f74780;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.business {
+  background: #ffffff;
+  box-shadow: 0px 25px 50px rgba(36, 52, 117, 0.044);
+  border-radius: 10px;
+  margin-top: 50px;
+  padding-left: 28px;
+  padding-bottom: 32px;
+  width: 325px;
+  height: 235px;
+}
+
+.business h2 {
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183f;
+}
+
+.business p {
+  width: 286px;
+  height: 100px;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+}
+
+.business-button-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5px;
+}
+
+.business-button {
+  height: 28px;
+  background-color: white;
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f74780;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #13183f;
+  width: 353.6px;
+  height: 120px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.footer-button {
+  width: 140px;
+  height: 48px;
+  margin-right: 16px;
+  background: linear-gradient(180deg, #080f98 0%, #9f0366 100%);
+  border-radius: 28px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+@media all and (min-width: 768px) {
+  body {
+    height: 1800px;
+    margin-top: 10px;
   }
-  
-  .skiiled-color {
-    color: #ffffff;
-  }
-  
+
   .content-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 345px;
-    height: 2700px;
+    width: 768px;
+    height: 1900px;
+    margin-top: 15px;
   }
-  
+
   .top-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 375px;
-    height: 750px;
-    padding: 20px;
-    background: #ffffff;
+    width: 795.8px;
+    height: 650px;
+    padding: 0;
+    overflow: hidden;
   }
-  
+
+  .top-section-paragraph {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    width: 400px;
+    height: 70px;
+  }
+
   header {
     display: flex;
-    justify-content: space-around;
-    width: 375px;
-  }
-  
-  header h1 {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 28px;
-    line-height: 35px;
-    color: #13183f;
-    margin-top: 0;
-    margin-right: 50px;
-  }
-  
-  header img {
-    display: none;
-  }
-  
-  .button-one {
-    background: #13183f;
-    border-radius: 28px;
-    width: 140px;
+    justify-content: space-between;
+    width: 689px;
     height: 48px;
-    margin-left: 50px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 28px;
-    color: #ffffff;
   }
-  
-  .main-title {
-    width: 343px;
-    height: 101px;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 50px;
-    margin-bottom: 0;
-    margin-left: 16px;
-    color: #13183f;
+
+  .main-title-div {
+    position: relative;
+    right: 170px;
+    margin-top: 70px;
   }
-  
-  .top-section-paragraph {
-    width: 350px;
-    height: 78px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: 26px;
-    color: #83869a;
-    margin: 33px 16px 25px 16px;
-  }
-  
-  .button-two-container {
-    align-self: flex-start;
-    margin-left: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .button-two {
-    width: 175px;
-    height: 60px;
-    margin-bottom: 10px;
-    background: linear-gradient(180deg, #b54020 0%, #71124e 100%);
-    border-radius: 31.5px;
-    border: none;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 26px;
-    color: #ffffff;
-  }
-  
+
   .mobile-image-one {
-    width: 365px;
-    height: 390px;
-    margin-bottom: 0;
-  }
-  
-  .tablet-image-one {
     display: none;
   }
-  
+
+  .tablet-image-one {
+    display: inline;
+    position: relative;
+    bottom: 500px;
+    left: 340px;
+    overflow: hidden;
+    width: 725px;
+    height: 600px;
+    margin-bottom: 0;
+    overflow: hidden;
+  }
+
   .desktop-image-one {
     display: none;
   }
-  
+
   .bottom-section {
-    display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
-    width: 345px;
-    height: 1750px;
-    background: linear-gradient(180deg, #ffffff 0%, #f0fff6 100%);
-    padding: 0px 20px 0px 20px;
-    margin-top: 35px;
+    flex-wrap: wrap;
+    width: 795.8px;
+    height: 999px;
+    padding: 0;
+    margin-top: 0px;
   }
-  
-  .popular {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  
+
   .popular-courses {
     width: 345px;
-    height: 122px;
-    margin-top: 0px;
-    background: linear-gradient(180deg, #b54020 0%, #71124e 100%);
-    border-radius: 10px;
-    left: 8.16%;
-    right: 8.45%;
-    top: calc(50% - 64px / 2 - 4px);
-  
-    font-style: normal;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 32px;
-    color: #ffffff;
+    height: 265px;
+    margin-top: 15px;
+    margin-left: 25px;
   }
-  
-  .popular-courses p {
-    width: 250px;
-    padding-left: 30px;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 32px;
-    color: #ffffff;
-  }
-  
+
   .animation {
-    background: #ffffff;
-    box-shadow: 0px 25px 50px rgba(36, 52, 117, 0.044);
-    border-radius: 10px;
-    margin-top: 50px;
-    padding-left: 28px;
-    padding-bottom: 32px;
-    width: 325px;
-    height: 235px;
-    left: 16px;
-    top: 1184px;
-  }
-  
-  .animation img {
-    position: relative;
-    bottom: 25px;
-    width: 56px;
-    height: 56px;
-  }
-  
-  .animation h2 {
+    order: 3;
+    width: 320px;
+    height: 259px;
     margin-top: 0;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 25px;
-    color: #13183f;
+    margin-right: 25px;
+    padding-bottom: 22px;
   }
-  
-  .animation p {
-    width: 286px;
-    height: 100px;
-    margin-bottom: 0;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: #83869a;
-  }
-  
-  .animation-button-container {
-    display: flex;
-    justify-content: flex-start;
-    height: 25px;
-  }
-  
-  .animation-button {
-    height: 28px;
-    left: 8.16%;
-    right: 61.52%;
-    top: calc(50% - 28px / 2 + 95.5px);
-    background-color: white;
-    border: none;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-    color: #f74780;
-    margin-bottom: 15px;
-    padding-left: 0;
-  }
-  
+
   .design {
-    background: #ffffff;
-    box-shadow: 0px 25px 50px rgba(36, 52, 117, 0.044);
-    border-radius: 10px;
-    margin-top: 50px;
-    padding-left: 28px;
-    padding-bottom: 32px;
-    width: 325px;
-    height: 235px;
-    left: 16px;
-    top: 1184px;
+    order: 1;
+    width: 320px;
+    height: 239px;
+    margin-left: 25px;
   }
-  
-  .design img {
-    position: relative;
-    bottom: 25px;
-    width: 56px;
-    height: 56px;
-  }
-  
-  .design h2 {
-    margin-top: 0;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 25px;
-    color: #13183f;
-  }
-  
-  .design p {
-    width: 300px;
-    height: 100px;
-    margin-right: 29px;
-    margin-bottom: 0;
-    padding-right: 0;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: #83869a;
-  }
-  
-  .design-button-container {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  
-  .design-button {
-    height: 28px;
-    background-color: white;
-    border: none;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-    color: #f74780;
-    margin-bottom: 0;
-    padding-left: 0;
-  }
-  
+
   .camera {
-    background: #ffffff;
-    box-shadow: 0px 25px 50px rgba(36, 52, 117, 0.044);
-    border-radius: 10px;
-    margin-top: 50px;
-    padding-left: 28px;
-    padding-bottom: 32px;
-    width: 325px;
-    height: 235px;
-    left: 16px;
-    top: 1184px;
+    order: 4;
+    width: 320px;
+    height: 239px;
+    margin-right: 25px;
   }
-  
-  .camera img {
-    position: relative;
-    bottom: 25px;
-    width: 56px;
-    height: 56px;
-  }
-  
-  .camera h2 {
-    margin-top: 0;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 25px;
-    color: #13183f;
-  }
-  
-  .camera p {
-    width: 286px;
-    height: 100px;
-    margin-right: 29px;
-    margin-bottom: 0;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: #83869a;
-  }
-  
-  .camera-button-container {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 0px;
-    margin-bottom: 30px;
-  }
-  
-  .camera-button {
-    height: 28px;
-    background-color: white;
-    border: none;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-    color: #f74780;
-    margin-bottom: 0;
-    padding-left: 0;
-  }
-  
+
   .bitcoin {
-    background: #ffffff;
-    box-shadow: 0px 25px 50px rgba(36, 52, 117, 0.044);
-    border-radius: 10px;
-    margin-top: 50px;
-    padding-left: 28px;
-    padding-bottom: 32px;
-    width: 325px;
-    height: 235px;
-    left: 16px;
-    top: 1184px;
+    order: 2;
+    width: 320px;
+    height: 239px;
+    margin-left: 25px;
   }
-  
-  .bitcoin img {
+
+  .business {
+    order: 5;
+    width: 320px;
+    height: 239px;
+    margin-right: 25px;
+  }
+
+  footer {
+    order: 6;
+    width: 795.8px;
+    height: 120px;
+  }
+}
+
+@media all and (min-width: 1240px) {
+  body {
+    width: 1040px;
+  }
+
+  .top-section {
+    width: 1260px;
+    overflow: hidden;
+    padding-bottom: 200px;
+  }
+
+  header h1 {
+    display: inline-block;
+    position: absolute;
+    width: 111px;
+    left: -40px;
+    top: 40px;
+  }
+
+  .button-one {
+    position: absolute;
+    width: 167px;
+    left: 900px;
+    top: 30px;
+    z-index: 2;
+  }
+
+  .button-one:hover {
+    background: #666ca3;
+  }
+
+  .main-title-div {
+    position: absolute;
+    width: 457px;
+    height: 359px;
+    left: -50px;
+    top: 205px;
+  }
+
+  .button-two:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(135, 127, 127, 0.5),
+        rgba(135, 127, 127, 0.5)
+      ),
+      linear-gradient(180deg, #b54020 0%, #71124e 100%);
+    border-radius: 31.5px;
+  }
+
+  .mobile-image-one {
+    display: none;
+  }
+
+  .tablet-image-one {
+    display: none;
+  }
+
+  .desktop-image-one {
+    display: inline-block;
     position: relative;
-    bottom: 25px;
-    width: 56px;
-    height: 56px;
+    width: 700px;
+    height: 800.92px;
+    left: 340px;
+    top: -0.13px;
+    z-index: 1;
   }
-  
-  .bitcoin h2 {
-    margin-top: 0;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 25px;
-    color: #13183f;
-  }
-  
-  .bitcoin p {
-    width: 286px;
-    height: 100px;
-    margin-bottom: 0;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: #83869a;
-  }
-  
-  .bitcoin-button-container {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 5px;
+
+  .top-section-paragraph {
     margin-bottom: 50px;
   }
-  
-  .bitcoin-button {
-    height: 28px;
-    background-color: white;
-    border: none;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-    color: #f74780;
-    margin-bottom: 0;
-    padding-left: 0;
-  }
-  
-  .business {
-    background: #ffffff;
-    box-shadow: 0px 25px 50px rgba(36, 52, 117, 0.044);
-    border-radius: 10px;
-    margin-top: 50px;
-    padding-left: 28px;
-    padding-bottom: 32px;
-    width: 325px;
-    height: 235px;
-  }
-  
-  .business img {
-    position: relative;
-    bottom: 25px;
-    width: 56px;
-    height: 56px;
-  }
-  
-  .business h2 {
-    margin-top: 0;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 25px;
-    color: #13183f;
-  }
-  
-  .business p {
-    width: 286px;
-    height: 100px;
-    margin-bottom: 0;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: #83869a;
-  }
-  
-  .business-button-container {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 5px;
-  }
-  
-  .business-button {
-    height: 28px;
-    background-color: white;
-    border: none;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-    color: #f74780;
-    margin-bottom: 0;
-    padding-left: 0;
-  }
-  
-  footer {
-    display: flex;
+
+  .bottom-section {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: #13183f;
+    width: 1265px;
+    height: 888px;
+    background: linear-gradient(180deg, #ffffff 0%, #f0fff6 100%);
+  }
+
+  .popular-courses {
+    order: 1;
     width: 345px;
-    height: 120px;
-    padding-right: 20px;
-    padding-left: 20px;
+    height: 259px;
+    margin: 10px 0 0 0px;
   }
-  
-  footer img {
-    width: 89px;
-    height: 22px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 16px;
+
+  .animation {
+    order: 2;
+    margin-right: 30px;
+    margin-left: 30px;
   }
-  
+
+  .design {
+    order: 3;
+    height: 259px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .camera {
+    order: 4;
+    height: 259px;
+    margin-top: 0;
+    margin-bottom: 100px;
+  }
+
+  .bitcoin {
+    order: 5;
+    height: 259px;
+    margin-top: 0;
+    margin-right: 25px;
+    margin-left: 0;
+    margin-bottom: 100px;
+  }
+
+  .business {
+    order: 6;
+    height: 259px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 100px;
+  }
+
+  footer {
+    width: 1265px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  footer h1 {
+    position: relative;
+    left: 75px;
+    width: 111px;
+    height: 27px;
+  }
+
   .footer-button {
-    width: 140px;
-    height: 48px;
-    margin-right: 16px;
-    background: linear-gradient(180deg, #080f98 0%, #9f0366 100%);
+    position: relative;
+    right: 55px;
+  }
+
+  .footer-button:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(135, 127, 127, 0.5),
+        rgba(135, 127, 127, 0.5)
+      ),
+      linear-gradient(180deg, #080f98 -54.32%, #9f0366 100%);
     border-radius: 28px;
-  
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 28px;
-    color: #ffffff;
   }
-  
-  @media all and (min-width: 768px) {
-    body {
-      height: 1800px;
-      margin-top: 10px;
-    }
-  
-    .content-wrapper {
-      width: 768px;
-      height: 1900px;
-      margin-top: 15px;
-    }
-  
-    .top-section {
-      width: 768px;
-      height: 650px;
-      padding: 0;
-      overflow: hidden;
-    }
-  
-    .top-section-paragraph {
-      font-style: normal;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 26px;
-      width: 400px;
-      height: 70px;
-    }
-  
-    header {
-      display: flex;
-      justify-content: space-between;
-      width: 689px;
-      height: 48px;
-    }
-  
-    .main-title-div {
-      position: relative;
-      right: 170px;
-      margin-top: 70px;
-    }
-  
-    .mobile-image-one {
-      display: none;
-    }
-  
-    .tablet-image-one {
-      display: inline;
-      position: relative;
-      bottom: 500px;
-      left: 340px;
-      overflow: hidden;
-      width: 725px;
-      height: 600px;
-      margin-bottom: 0;
-      overflow: hidden;
-    }
-  
-    .desktop-image-one {
-      display: none;
-    }
-  
-    .bottom-section {
-      flex-direction: column;
-      justify-content: flex-start;
-      flex-wrap: wrap;
-      width: 768px;
-      height: 999px;
-      padding: 0;
-      margin-top: 0px;
-    }
-  
-    .popular-courses {
-      width: 345px;
-      height: 265px;
-      margin-top: 15px;
-      margin-left: 25px;
-    }
-  
-    .animation {
-      order: 3;
-      width: 320px;
-      height: 259px;
-      margin-top: 0;
-      margin-right: 25px;
-      padding-bottom: 22px;
-    }
-  
-    .animation img {
-      bottom: 15px;
-    }
-  
-    .design {
-      order: 1;
-      width: 320px;
-      height: 239px;
-      margin-left: 25px;
-    }
-  
-    .camera {
-      order: 4;
-      width: 320px;
-      height: 239px;
-      margin-right: 25px;
-    }
-  
-    .bitcoin {
-      order: 2;
-      width: 320px;
-      height: 239px;
-      margin-left: 25px;
-    }
-  
-    .business {
-      order: 5;
-      width: 320px;
-      height: 239px;
-      margin-right: 25px;
-    }
-  
-    footer {
-      order: 6;
-      width: 728px;
-      height: 120px;
-    }
-  }
-  
-  @media all and (min-width: 1240px) {
-    body {
-      width: 1040px;
-    }
-  
-    .top-section {
-      width: 1260px;
-      overflow: hidden;
-      padding-bottom: 200px;
-    }
-  
-    header h1 {
-      display: inline-block;
-      position: absolute;
-      width: 111px;
-      left: -40px;
-      top: 40px;
-    }
-  
-    .button-one {
-      position: absolute;
-      width: 167px;
-      left: 900px;
-      top: 30px;
-      z-index: 2;
-    }
-  
-    .button-one:hover {
-      background: #666ca3;
-    }
-  
-    .main-title-div {
-      position: absolute;
-      width: 457px;
-      height: 359px;
-      left: -50px;
-      top: 205px;
-    }
-  
-    .button-two:hover {
-      background: linear-gradient(
-          0deg,
-          rgba(135, 127, 127, 0.5),
-          rgba(135, 127, 127, 0.5)
-        ),
-        linear-gradient(180deg, #b54020 0%, #71124e 100%);
-      border-radius: 31.5px;
-    }
-  
-    .mobile-image-one {
-      display: none;
-    }
-  
-    .tablet-image-one {
-      display: none;
-    }
-  
-    .desktop-image-one {
-      display: inline-block;
-      position: relative;
-      width: 700px;
-      height: 800.92px;
-      left: 340px;
-      top: -0.13px;
-      z-index: 1;
-    }
-  
-    .top-section-paragraph {
-      margin-bottom: 50px;
-    }
-  
-    .bottom-section {
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      width: 1265px;
-      height: 888px;
-      background: linear-gradient(180deg, #ffffff 0%, #f0fff6 100%);
-    }
-  
-    .popular-courses {
-      order: 1;
-      width: 345px;
-      height: 259px;
-      margin: 10px 0 0 0px;
-    }
-  
-    .animation {
-      order: 2;
-      margin-right: 30px;
-      margin-left: 30px;
-    }
-  
-    .design {
-      order: 3;
-      height: 259px;
-      margin-top: 0;
-      margin-left: 0;
-    }
-  
-    .camera {
-      order: 4;
-      height: 259px;
-      margin-top: 0;
-      margin-bottom: 100px;
-    }
-  
-    .bitcoin {
-      order: 5;
-      height: 259px;
-      margin-top: 0;
-      margin-right: 25px;
-      margin-left: 0;
-      margin-bottom: 100px;
-    }
-  
-    .business {
-      order: 6;
-      height: 259px;
-      margin-top: 0;
-      margin-right: 0;
-      margin-bottom: 100px;
-    }
-  
-    footer {
-      width: 1265px;
-      padding-right: 0;
-      padding-left: 0;
-    }
-  
-    footer h1 {
-      position: relative;
-      left: 75px;
-      width: 111px;
-      height: 27px;
-    }
-  
-    .footer-button {
-      position: relative;
-      right: 55px;
-    }
-  
-    .footer-button:hover {
-      background: linear-gradient(
-          0deg,
-          rgba(135, 127, 127, 0.5),
-          rgba(135, 127, 127, 0.5)
-        ),
-        linear-gradient(180deg, #080f98 -54.32%, #9f0366 100%);
-      border-radius: 28px;
-    }
-  }
-  
+}
